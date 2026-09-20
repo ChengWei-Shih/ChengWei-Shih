@@ -1,5 +1,3 @@
-# Cheng-Wei,Shih
-
 ## 🎓 Education
 
 ### National Yang Ming Chiao Tung University
