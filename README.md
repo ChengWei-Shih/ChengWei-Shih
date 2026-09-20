@@ -60,32 +60,7 @@ Taoyuan, Taiwan · Sept. 2024 – Present
 
 ## 💾 Memory and Storage Systems
 
-### Technical Foundations
-**NAND Flash, SSD Systems, and Linux I/O Stack**
-
-- Familiar with **NAND Flash / SSD architecture and FTL mechanisms**, including:
-  - LBA-to-PBA address remapping
-  - Out-of-place updates
-  - Page-/block-level address translation
-  - Garbage Collection (GC)
-  - Dynamic / Static Wear Leveling
-
-- Familiar with **NAND Flash device operations and reliability**, including:
-  - Page-level read / program
-  - Block-level erase
-  - SLC / MLC / TLC / QLC
-  - Retention errors
-  - Read retry
-  - P/E-cycle endurance
-
-- Familiar with the **Linux storage I/O stack**, including:
-  - Block I/O
-  - `bio`
-  - VFS
-  - I/O scheduling
-  - RAID reliability / performance trade-offs
-
-### Memory and Program Performance Profiling
+### Project: Memory and Program Performance Profiling
 
 - Used **Valgrind Memcheck** to diagnose:
   - Invalid memory accesses
@@ -104,7 +79,7 @@ Taoyuan, Taiwan · Sept. 2024 – Present
   - CPU execution bottlenecks
   - Transformer workload bottlenecks
 
-### NVMe Storage I/O Benchmarking and Performance Tuning
+### Project: NVMe Storage I/O Benchmarking and Performance Tuning
 
 - Benchmarked **NVMe storage using FIO** across:
   - Sequential / Random read and write
@@ -124,34 +99,7 @@ Taoyuan, Taiwan · Sept. 2024 – Present
 
 ## 🐧 Operating Systems and Embedded Operating Systems
 
-### Technical Foundations
-**Linux Kernel and Embedded Operating Systems**
-
-- Familiar with **Linux process management and execution**, including:
-  - `task_struct`
-  - `fork()` / `exec()`
-  - Copy-on-Write
-  - Context Switching
-  - CFS
-
-- Familiar with **physical and virtual memory management**, including:
-  - Page Tables
-  - TLB Translation
-  - Page Faults
-  - Swapping
-  - Buddy Allocator
-  - Slab Allocator
-  - Huge Pages
-  - NUMA
-
-- Familiar with **embedded OS hardware interaction and interrupt mechanisms**, including:
-  - Memory-Mapped I/O
-  - Device-Control Registers
-  - Interrupt Latency
-  - Deferred Interrupt Handling
-  - Priority-Inversion Avoidance
-
-### RISC-V Linux Kernel Programming and Scheduling
+### OS Project: RISC-V Linux Kernel Programming and Scheduling
 
 - Implemented custom **system calls** in the RISC-V Linux kernel, including:
   - User–kernel data transfer
@@ -171,4 +119,28 @@ Taoyuan, Taiwan · Sept. 2024 – Present
   - Process information
   - System uptime
 
-  to user space in a **neofetch-style interface**.
+- Implemented synchronization using:
+  - pthread barriers
+  - Kernel mutexes
+
+### EOS Project: Raspberry Pi and Game Development
+
+- Developed **kernel-level drivers** on Raspberry Pi to interface with hardware peripherals.
+- Implemented custom **GPIO drivers** in the Linux kernel.
+- Designed and tested:
+  - Multi-process applications
+  - Multi-threaded applications
+
+- Built IPC mechanisms using:
+  - Sockets
+  - Semaphores
+  - Mutexes
+  - Shared Memory
+
+- Integrated:
+  - Signal Handling
+  - Timer APIs
+
+  for asynchronous event-driven programming.
+
+- Compiled the Linux kernel and kernel modules using custom Makefiles.
