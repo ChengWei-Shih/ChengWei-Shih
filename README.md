@@ -4,16 +4,9 @@
 **Master's Degree | Institute of Electrical and Control Engineering**  
 Sept. 2024 – Sept. 2026 | In Progress
 
-- **GPA:** 4.13 / 4.30
-- **Related Courses:** Embedded Operating Systems, Operating Systems, Computer Architecture, Memory and Storage Systems, Digital Image Processing, Algorithms (In Progress)
-
 ### National Sun Yat-sen University
 **Bachelor's Degree | Mechanical and Electro-Mechanical Engineering**  
 Sept. 2020 – Jun. 2024 | Graduated
-
-- **GPA:** 4.10 / 4.30
-- **Department Ranking:** 2 / 115 (for Master's Program Recommendation); 6 / 93 at Graduation
-- **Related Courses:** C, C++, MATLAB Programming
 
 ---
 
