@@ -60,7 +60,7 @@ Taoyuan, Taiwan · Sept. 2024 – Present
 
 ## 💾 Memory and Storage Systems
 
-### Project: Memory and Program Performance Profiling
+### Memory and Program Performance Profiling
 
 - Used **Valgrind Memcheck** to diagnose:
   - Invalid memory accesses
@@ -79,7 +79,7 @@ Taoyuan, Taiwan · Sept. 2024 – Present
   - CPU execution bottlenecks
   - Transformer workload bottlenecks
 
-### Project: NVMe Storage I/O Benchmarking and Performance Tuning
+### NVMe Storage I/O Benchmarking and Performance Tuning
 
 - Benchmarked **NVMe storage using FIO** across:
   - Sequential / Random read and write
@@ -99,7 +99,7 @@ Taoyuan, Taiwan · Sept. 2024 – Present
 
 ## 🐧 Operating Systems and Embedded Operating Systems
 
-### OS Project: RISC-V Linux Kernel Programming and Scheduling
+### RISC-V Linux Kernel Programming and Scheduling
 
 - Implemented custom **system calls** in the RISC-V Linux kernel, including:
   - User–kernel data transfer
@@ -120,10 +120,10 @@ Taoyuan, Taiwan · Sept. 2024 – Present
   - System uptime
 
 - Implemented synchronization using:
-  - pthread barriers
+  - `pthread` barriers
   - Kernel mutexes
 
-### EOS Project: Raspberry Pi and Game Development
+### Raspberry Pi and Game Development
 
 - Developed **kernel-level drivers** on Raspberry Pi to interface with hardware peripherals.
 - Implemented custom **GPIO drivers** in the Linux kernel.
@@ -137,10 +137,5 @@ Taoyuan, Taiwan · Sept. 2024 – Present
   - Mutexes
   - Shared Memory
 
-- Integrated:
-  - Signal Handling
-  - Timer APIs
-
-  for asynchronous event-driven programming.
-
+- Integrated Signal Handling and Timer APIs for asynchronous event-driven programming.
 - Compiled the Linux kernel and kernel modules using custom Makefiles.
