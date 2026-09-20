@@ -2,23 +2,24 @@
 
 ### National Yang Ming Chiao Tung University
 **Master's Degree | Institute of Electrical and Control Engineering**  
-Sept. 2024 – Sept. 2026 | In Progress
+Sept. 2024 – Sept. 2026 · In Progress
 
 ### National Sun Yat-sen University
 **Bachelor's Degree | Mechanical and Electro-Mechanical Engineering**  
-Sept. 2020 – Jun. 2024 | Graduated
+Sept. 2020 – Jun. 2024 · Graduated
 
 ---
 
 ## 🔬 Research Experience
 
-### Human and Machine Lab | National Yang Ming Chiao Tung University
+### Human and Machine Lab
+**National Yang Ming Chiao Tung University**  
 Sept. 2024 – Sept. 2026
 
 **Master's Thesis**  
 *An LLM-Based Task Sequence Generation System with Error Localization and Local Repair*
 
-- **Keywords:** Industrial Robot, LLM, PDDL, Error Localization, Local Repair, Long-Horizon Task Planning
+**Keywords:** Industrial Robot · LLM · PDDL · Error Localization · Local Repair · Long-Horizon Task Planning
 
 **NSTC Research Project**  
 *Development of an Industrial Robot ChatBot for AMR Flexible Manufacturing*
@@ -31,7 +32,7 @@ Sept. 2024 – Sept. 2026
 
 ### LLM-Based Task Planning for Robot Assembly
 **International Conference on Advanced Robotics and Intelligent Systems (ARIS)**  
-Taichung, Taiwan | 2025 | LBR
+Taichung, Taiwan · 2025 · LBR
 
 ---
 
@@ -39,29 +40,28 @@ Taichung, Taiwan | 2025 | LBR
 
 ### Automatic System Development Engineer
 **Hong Lang Technology Co., Ltd.**  
-Zhonghe District, New Taipei City  
-Jul. 2024 – Jul. 2025
+Zhonghe District, New Taipei City · Jul. 2024 – Jul. 2025
 
-*Footwear Manufacturing Automation Solution*
+**Footwear Manufacturing Automation Solution**
 
 - Developed automated machinery systems for the footwear industry, focusing on production efficiency and reliability.
 - Maintained and extended codebase by implementing new functional modules and improving system stability.
 
 ### Industry Collaboration Project
 **Techman Robot Inc.**  
-Taoyuan, Taiwan  
-Sept. 2024 – Present
+Taoyuan, Taiwan · Sept. 2024 – Present
 
-*Reducer Production-Line Improvement*
+**Reducer Production-Line Improvement**
 
 - Collaborated with Techman Robot on an industrial reducer-bearing assembly application and improved the existing robotic assembly workflow.
 - Developed a rapidly deployable human-machine interface using structured representations and iterative refinement, enabling a 7B local LLM to reliably generate robot task sequences.
 
 ---
 
-# 💾 Memory and Storage Systems
+## 💾 Memory and Storage Systems
 
-## Technical Foundations: NAND Flash, SSD Systems, and Linux I/O Stack
+### Technical Foundations
+**NAND Flash, SSD Systems, and Linux I/O Stack**
 
 - Familiar with **NAND Flash / SSD architecture and FTL mechanisms**, including:
   - LBA-to-PBA address remapping
@@ -70,7 +70,7 @@ Sept. 2024 – Present
   - Garbage Collection (GC)
   - Dynamic / Static Wear Leveling
 
-- Familiar with NAND Flash device operations and reliability, including:
+- Familiar with **NAND Flash device operations and reliability**, including:
   - Page-level read / program
   - Block-level erase
   - SLC / MLC / TLC / QLC
@@ -78,16 +78,14 @@ Sept. 2024 – Present
   - Read retry
   - P/E-cycle endurance
 
-- Familiar with the Linux storage I/O stack, including:
+- Familiar with the **Linux storage I/O stack**, including:
   - Block I/O
-  - bio
+  - `bio`
   - VFS
   - I/O scheduling
   - RAID reliability / performance trade-offs
 
----
-
-## Project: Memory and Program Performance Profiling
+### Memory and Program Performance Profiling
 
 - Used **Valgrind Memcheck** to diagnose:
   - Invalid memory accesses
@@ -106,9 +104,7 @@ Sept. 2024 – Present
   - CPU execution bottlenecks
   - Transformer workload bottlenecks
 
----
-
-## Project: NVMe Storage I/O Benchmarking and Performance Tuning
+### NVMe Storage I/O Benchmarking and Performance Tuning
 
 - Benchmarked **NVMe storage using FIO** across:
   - Sequential / Random read and write
@@ -126,18 +122,19 @@ Sept. 2024 – Present
 
 ---
 
-# 🐧 Operating Systems and Embedded Operating Systems
+## 🐧 Operating Systems and Embedded Operating Systems
 
-## Technical Foundations: Linux Kernel and Embedded Operating Systems
+### Technical Foundations
+**Linux Kernel and Embedded Operating Systems**
 
-- Familiar with Linux process management and execution:
+- Familiar with **Linux process management and execution**, including:
   - `task_struct`
   - `fork()` / `exec()`
   - Copy-on-Write
   - Context Switching
   - CFS
 
-- Familiar with physical and virtual memory management:
+- Familiar with **physical and virtual memory management**, including:
   - Page Tables
   - TLB Translation
   - Page Faults
@@ -147,16 +144,14 @@ Sept. 2024 – Present
   - Huge Pages
   - NUMA
 
-- Familiar with embedded OS hardware interaction and interrupt mechanisms:
+- Familiar with **embedded OS hardware interaction and interrupt mechanisms**, including:
   - Memory-Mapped I/O
   - Device-Control Registers
   - Interrupt Latency
   - Deferred Interrupt Handling
   - Priority-Inversion Avoidance
 
----
-
-## OS Project: RISC-V Linux Kernel Programming and Scheduling
+### RISC-V Linux Kernel Programming and Scheduling
 
 - Implemented custom **system calls** in the RISC-V Linux kernel, including:
   - User–kernel data transfer
@@ -169,7 +164,11 @@ Sept. 2024 – Present
   - CPU affinity
   - CPU-bound workloads
 
-- Built a Linux **character-device kernel module**:
+- Built a Linux **character-device kernel module** (`/dev/kfetch`) that reports:
+  - Kernel information
+  - CPU information
+  - Memory information
+  - Process information
+  - System uptime
 
-```text
-/dev/kfetch
+  to user space in a **neofetch-style interface**.
