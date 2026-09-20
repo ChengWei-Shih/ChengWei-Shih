@@ -1,10 +1,4 @@
-# Cheng-Wei Shih
-
-Graduate student in Electrical and Control Engineering with experience in
-**Linux / Embedded Systems, Memory & Storage Systems, Robotics, and LLM-based Task Planning**.
-
-📧 william0726.tai@gmail.com  
-🔗 [GitHub](https://github.com/ChengWei-Shih)
+# Cheng-Wei,Shih
 
 ---
 
